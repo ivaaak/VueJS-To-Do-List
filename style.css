@@ -124,7 +124,8 @@ button:hover {
   transform-origin: center;
   transform: scalex(0);
 }
-.todo-list__item-content:hover:after, .todo-list__item-content:focus:after {
+.todo-list__item-content:hover:after, 
+.todo-list__item-content:focus:after {
   transform: scalex(1);
 }
 .todo-list__item-remove {
@@ -155,7 +156,6 @@ button:hover {
 .list-enter-active {
   transition: 500ms cubic-bezier(0.87, -0.41, 0.19, 1.44);
 }
-
 .list-enter,
 .list-leave-active {
   transform: translate(100%, 0);
